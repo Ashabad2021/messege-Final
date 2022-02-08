@@ -1,0 +1,163 @@
+@media (max-width: 360px) {
+  .wrapper {
+    width: 360px;
+    height: 640px;
+  }
+  .main__display {
+    width: 360px;
+    height: 640px;
+    background-color: #dadcdf;
+    overflow: hidden;
+    display: block;
+  }
+  .header__block {
+    width: 360px;
+    height: 50px;
+    background-color: #375263;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  .header__left {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  .logo {
+    margin-right: 12px;
+  }
+
+   /* MAIN     */
+
+   .message__block {
+    padding: 5px;
+  }
+  .message__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(71, 69, 66);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .message__contact {
+    margin-bottom: 3px;
+  }
+  .message__text {
+    color: #375263;
+  }
+  .message__data {
+    margin-top: 10px;
+  }
+
+  /* Main */
+
+  /* Modals  */
+  .modal__0801 {
+    width: 360px;
+    min-height: 640px;
+    background-color: #dadcdf;
+    display: none;
+  }
+  .header__block0801 {
+    margin-bottom: 20px;
+    position: fixed;
+  }
+
+  .modal__main0801{
+   padding-top: 70px;
+   padding-bottom: 70px;
+  }
+
+/* .pop__body {
+
+} */
+  .pop__date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+  .pop__block {
+    display: flex;
+  }
+  .pop__avatar {
+    margin-left: 10px;
+  }
+  .pop__info {
+    width: 277px;
+    margin: 0px 20px 10px 10px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 226, 100);
+  }
+  .time {
+    margin-left: 55px;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pop__footer {
+    display: flex;
+    width: 360px;
+    height: 50px;
+    position: fixed;
+    background-color: #afb8b8;
+  }
+  .div__message {
+    width: 250px;
+    margin-left: 5px;
+  }
+  .enter__message {
+    width: 275px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 5px 0px 5px;
+    font-size: 2rem;
+  }
+  .enter__message::placeholder {
+    color: rgb(111, 111, 126);
+    font-size: 0.8em;
+  }
+
+  .div__skrepka {
+    width: 60px;
+    height: 60px;
+    margin: 6px 0px 0px 38px;
+  }
+  .skrepka {
+    width: 100%;
+  }
+  .send {
+    display: none;
+    margin: -12px 0px 0px 39px;
+    opacity: 0.4;
+  }
+
+  .modal__0804 {
+    width: 360px;
+    min-height: 640px;
+    background-color: #dadcdf;
+    display: none;
+  }
+  .modal__main0804 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+   }
+  .header__block0804 {
+    position: fixed;
+  }
+  .big {
+    height: 100px;
+  }
+  
+}
+
+
